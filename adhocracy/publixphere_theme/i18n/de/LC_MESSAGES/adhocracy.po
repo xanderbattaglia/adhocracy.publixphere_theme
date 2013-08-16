@@ -2584,7 +2584,7 @@ msgstr "Endgültige Verabschiedung zulassen"
 msgid ""
 "Before activating, the defined majority must be continuously held by the "
 "proposal for the specified interval."
-msgstr "Bevor eine Debatte aktiviert wird, muss dieser eine bestimmte Zustimmungsrate über einen bestimmten Zeitraum erreichen."
+msgstr "Bevor eine Debatte aktiviert wird, muss diese eine bestimmte Zustimmungsrate über einen bestimmten Zeitraum erreichen."
 
 msgid "Majority"
 msgstr "Mehrheit"
@@ -3332,10 +3332,10 @@ msgstr "Diese Debatte bezieht sich auf den gelöschten Termin %s."
 
 #, python-format
 msgid "This proposal relates to the milestone %s."
-msgstr "Diese Debatte bezieht sich auf den Termin %s."
+msgstr "Termin zum Thema: %s"
 
 msgid "This proposal is not related to a milestone"
-msgstr "Diese Debatte bezieht sich auf keinen Termin"
+msgstr "Kein Termin zum Thema"
 
 #, python-format
 msgid "by %s on %s, %s changes since then."

@@ -7,6 +7,9 @@
 # decide manually.
 
 sed -i de/LC_MESSAGES/adhocracy.po \
+-e 's/Dieser Vorschlag bezieht sich auf den Termin %s./Termin zum Thema: %s/g' \
+-e 's/Dieser Vorschlag bezieht sich auf keinen Termin/Kein Termin zum Thema/g' \
+\
 -e 's/evor ein Vorschlag aktiviert wird, muss dieser/evor eine Debatte aktiviert wird, muss diese/g' \
 -e 's/Gruppe erfolgreich angelegt. Sie können diese/Thema erfolgreich angelegt. Sie können dieses/g' \
 -e 's/Über diesen Vorschlag wird gerade abgestimmt, er/Über diese Debatte wird gerade abgestimmt, sie/g' \
